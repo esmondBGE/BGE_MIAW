@@ -1,7 +1,7 @@
 <html>
-	Testing MIAW
+	Testing MIAW 1
   <body>
-    <script type='text/javascript'>
+   <script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
