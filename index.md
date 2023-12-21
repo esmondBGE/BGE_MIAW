@@ -1,5 +1,5 @@
 <html>
-	Testing MIAW 1
+	Testing MIAW 2
   <body>
    <script type='text/javascript'>
 	function initEmbeddedMessaging() {
