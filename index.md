@@ -1,5 +1,4 @@
 <html>
-  
   <body>
     <script type='text/javascript'>
     	function initEmbeddedMessaging() {
@@ -20,5 +19,4 @@
     </script>
     <script type='text/javascript' src='https://bordgaisenergyeandu--esmonddev.sandbox.my.site.com/ESWMIAWEsmondDev31703153891231/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
   </body>
-  
 </html>
