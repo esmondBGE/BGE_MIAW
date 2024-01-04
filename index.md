@@ -1,5 +1,5 @@
 <html>
-	Testing MIAW 6
+	Testing MIAW 7
   <body>
 	<script type='text/javascript'>
 	function initEmbeddedMessaging() {
@@ -17,9 +17,8 @@
 			console.error('Error loading Embedded Messaging: ', err);
 		}
 	};
-	</script>
-	<script type='text/javascript' src='https://bordgaisenergyeandu--esmonddev.sandbox.my.site.com/ESWMIAWEsmondDev41703172693512/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
-
+</script>
+<script type='text/javascript' src='https://bordgaisenergyeandu--esmonddev.sandbox.my.site.com/ESWMIAWEsmondDev41703172693512/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
   </body>
 </html>
