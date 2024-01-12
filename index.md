@@ -20,5 +20,9 @@
 </script>
 <script type='text/javascript' src='https://bordgaisenergyeandu--esmonddev.sandbox.my.site.com/ESWMIAWEsmondDev41703172693512/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
+<script type='text/javascript'> 
+delete Array.prototype.toJSON; 
+</script>
+
   </body>
 </html>
