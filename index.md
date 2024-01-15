@@ -1,5 +1,5 @@
 <html>
-	Testing MIAW 9
+	Testing MIAW 10
   <body>
 <script type='text/javascript'>
 	function initEmbeddedMessaging() {
@@ -20,9 +20,6 @@
 </script>
 <script type='text/javascript' src='https://bordgaisenergyeandu--esmonddev.sandbox.my.site.com/ESWMIAWEsmondDev41703172693512/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
-<script type='text/javascript'> 
-delete Array.prototype.toJSON; 
-</script>
 
   </body>
 </html>
