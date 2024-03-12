@@ -1,10 +1,14 @@
 <html>
-	MIAW Iteration 16. 29/02/2024
+	MIAW Iteration 17. 12/03/2024
   <body>
 <script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+			window.addEventListener("onEmbeddedMessagingReady", () => {            
+				console.log( "Inside Prechat API!!" );
+				embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields( { "Customer_Id" : "123456" } );
+			});
 			embeddedservice_bootstrap.init(
 				'00DUB00000069dJ',
 				'MIAW_EsmondDev4',
