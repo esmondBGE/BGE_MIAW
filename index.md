@@ -5,6 +5,10 @@
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+			window.addEventListener("onEmbeddedMessagingReady", () => {            
+				console.log( "Inside Prechat API!!" );
+				embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields( { "Access_Token" : "AccessToken" }, { "IPAdress" : "147.161.237.7" }, 				{ "Origin_Page" : "Github" } );
+			});
 			embeddedservice_bootstrap.init(
 				'00DUB00000069dJ',
 				'MIAW_EsmondDev4',
