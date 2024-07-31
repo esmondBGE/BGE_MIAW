@@ -1,5 +1,5 @@
 <html>
-	MIAW Iteration 26. 21/06/2024
+	MIAW Iteration 28. 31/07/2024
 	<body>
 	<script type='text/javascript'>
 	function initEmbeddedMessaging() {
@@ -7,7 +7,7 @@
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 			window.addEventListener("onEmbeddedMessagingReady", () => {            
 				console.log( "Inside Prechat API!!" );
-				embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields( { "Access_Token" : "2a0eb402-c4bb-40df-9490-5657cba21ce9", "IP_Address" : "255.255.255.255", "Origin_Page" : "Github" } );
+				embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields( { "Access_Token" : "af9c7848-201d-4ade-9d28-95be3863d800", "IP_Address" : "255.255.255.255", "Origin_Page" : "Github" } );
 			});
 			embeddedservice_bootstrap.init(
 				'00DUB00000069dJ',
