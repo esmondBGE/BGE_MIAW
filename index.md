@@ -7,7 +7,7 @@
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 			window.addEventListener("onEmbeddedMessagingReady", () => {            
 				console.log( "Inside Prechat API!!" );
-				embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields( { "Access_Token" : "14c890bd-bbc6-4a11-886b-083340b10596", "IP_Address" : "255.255.255.255", "Origin_Page" : "Github" } );
+				embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields( { "Access_Token" : "2a0eb402-c4bb-40df-9490-5657cba21ce9", "IP_Address" : "255.255.255.255", "Origin_Page" : "Github" } );
 			});
 			embeddedservice_bootstrap.init(
 				'00DUB00000069dJ',
