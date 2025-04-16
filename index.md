@@ -1,5 +1,5 @@
 <html>
-	MIAW Iteration 112. 28/03/2025
+	MIAW Iteration 115. 16/04/2025
 	<body>
 	<script type='text/javascript'>
 	function initEmbeddedMessaging() {
@@ -7,7 +7,7 @@
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 			window.addEventListener("onEmbeddedMessagingReady", () => {            
 				console.log( "Inside Prechat API!!" );
-				embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields( { "Access_Token" : "", "Origin_Page" : "/home/my-accounts", "Session_Token" : "87e10251-3892-4add-8fce-c1af9aed77b3" });
+				embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields( { "Access_Token" : "", "Origin_Page" : "/home/my-accounts", "Session_Token" : "ad4d7ccc-46ee-4cf1-b8d6-c5cac56f2945" });
 			});
 			embeddedservice_bootstrap.init(
 				'00DUB00000069dJ',
