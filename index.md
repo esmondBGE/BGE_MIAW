@@ -7,7 +7,7 @@
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 			window.addEventListener("onEmbeddedMessagingReady", () => {            
 				console.log( "Inside Prechat API!!" );
-				embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields( { "Access_Token" : "3f59d309-bc03-4dce-bf4c-d323bf6d6199", "Origin_Page" : "/home/my-accounts", "Session_Token" : "" });
+				embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields( { "Access_Token" : "7f1635f7-9d6f-4a4d-8d66-87027a42dc38", "Origin_Page" : "/home/my-accounts", "Session_Token" : "" });
 			});
 			embeddedservice_bootstrap.init(
 				'00DUB00000069dJ',
